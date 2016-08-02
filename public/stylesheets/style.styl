@@ -132,6 +132,10 @@ a
   right: 0;
 }
 
+.slider {
+  margin-bottom: 40px
+}
+
 .slider-slides {
   font-size:0
   white-space nowrap
@@ -191,6 +195,7 @@ a
 
 .content-wrp._content {
   font-size: 0
+  margin-bottom:20px
 }
 
 .content {
@@ -228,6 +233,7 @@ a
 }
 .articles {
   display: flex
+  align-items: flex-start;
 }
 .articles-i {
   font-size: 13px;
@@ -307,21 +313,118 @@ a
 
 .footer {
   background #e7e6e6;
+  padding-top 50px
 }
 
 .footer-links {
-  overflow hidden
+  text-align: right
+}
+
+.footer-links-wrp {
+  text-align: left
+  display: inline-block
+  width: 82%
+  padding-top:25px
+  margin-bottom: 20px
+  border-top: 1px solid #d2d2d2
 }
 
 .footer-links-l {
   float left;
   width 25%
   list-style none
+  padding-right: 10px;
+  box-sizing border-box
 }
 
 .footer-links-ln {
   color #626469
+  padding 3.6px 0
+  display: inline-block
+  font-size: 12px
   &:hover {
     color: #42b4e6
   }
+}
+
+.footer-social-l {
+  list-style none
+  text-align: right
+}
+
+.footer-social-i {
+  width 33px;
+  height: 33px
+  background #fff
+  display: inline-block
+  margin-left:10px
+  &:first-child {
+    margin-left:0
+  }
+}
+
+.footer-email {
+  margin-bottom: 60px
+}
+
+.footer-logo {
+  width 13.5%;
+  display: inline-block
+  vertical-align: middle
+  & img {
+    max-width 100%
+  }
+}
+.email-signup {
+  margin-left:4.5%
+  width 82%
+  display: inline-block
+  vertical-align: middle
+}
+
+.email-signup-tx {
+  width: 40%
+  display: inline-block
+  vertical-align: middle
+  font-size: 14px
+}
+
+.email-signup-form {
+  width 52%
+  margin-left: 8%
+  display: inline-block
+  vertical-align: middle
+  text-align: right
+}
+
+.email-signup-inp {
+  width 70%;
+  height 30px
+  padding 0 15px
+  box-sizing border-box
+  border none
+  display: inline-block
+  font-size: 14px
+}
+
+.email-signup-btn {
+  width 26%
+  margin-left: 2%
+  padding 0
+  height 30px
+  line-height 30px
+  display: inline-block
+  text-align: center
+}
+
+.footer-end {
+  height 41px;
+  background #3DCD58
+  margin-top: 15px
+}
+
+.footer-end-ln {
+  display: inline-block
+  color #fff
+  font-size: 11.7px
 }
