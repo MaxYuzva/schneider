@@ -5,11 +5,29 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     section.userbar
-      div.content-wrp
+      div.content-wrp._userbar
         div.userbar-actionitem
-          a Change country
+          a.userbar-actionitem-ln
+            svg.userbar-actionitem-pic(version='1.0', xmlns='http://www.w3.org/2000/svg', width='46.000000pt', height='40.000000pt', viewbox='0 0 46.000000 40.000000', preserveaspectratio='xMidYMid meet')
+              g(transform='translate(0.000000,40.000000) scale(0.100000,-0.100000)',  stroke='none')
+                path(d='M155 346 c-123 -55 -126 -234 -5 -296 51 -26 95 -25 150 3 50 25 90\
+                    88 90 142 -1 45 -34 109 -70 135 -40 29 -121 37 -165 16z m96 -15 c-9 -6 -10\
+                    -11 -2 -15 21 -13 11 -34 -26 -53 -21 -11 -38 -26 -38 -34 0 -8 -10 -25 -23\
+                    -39 -27 -30 -25 -50 8 -67 14 -7 27 -23 30 -35 7 -30 50 -32 65 -3 5 11 14 27\
+                    20 35 5 8 10 17 11 20 4 23 19 40 30 36 8 -3 14 1 14 9 0 8 4 15 9 15 5 0 12\
+                    8 14 18 3 9 5 2 6 -16 3 -93 -82 -165 -174 -148 -38 7 -98 52 -89 67 7 12 -5\
+                    51 -14 45 -6 -3 -8 45 -3 80 1 12 46 25 90 28 13 0 26 7 29 15 3 10 0 12 -12\
+                    8 -12 -5 -16 -3 -14 5 3 7 14 14 26 16 12 2 22 8 22 13 0 5 8 9 18 9 13 0 14\
+                    -2 3 -9z')
+            span.userbar-actionitem-ln-tx Change country
         div.userbar-actionitem
-          a Login/Join Partner
+          a.userbar-actionitem-ln
+            svg.userbar-actionitem-pic(version='1.0', xmlns='http://www.w3.org/2000/svg', width='46.000000pt', height='40.000000pt', viewbox='0 0 46.000000 40.000000', preserveaspectratio='xMidYMid meet')
+              g(transform='translate(0.000000,40.000000) scale(0.100000,-0.100000)', stroke='none')
+                path(d='M188 345 c-33 -18 -52 -72 -39 -107 5 -14 22 -35 37 -47 l27 -21 -34\
+                0 c-44 0 -77 -23 -95 -66 -27 -65 -31 -64 146 -64 156 0 160 1 160 21 0 59\
+                -49 109 -107 109 l-25 0 31 29 c24 23 31 37 31 68 -1 75 -65 114 -132 78z')
+            span.userbar-actionitem-ln-tx Login/Join Partner
     nav.navigation
       div.content-wrp._navigation
         .navigation-leftside
@@ -31,6 +49,10 @@ html
             form
               input.navigation-search-inp(placeholder="Search")
               button.navigation-search-btn(type="submit")
+                svg.navigation-search-btn-pic(width='300', height='300', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink')
+                  g
+                    path(d='m37.938995,39.085999c-43.272995,43.272003 -43.378998,114.158997 -0.105988,157.432007c36.662994,36.663025 93.201996,42.25 135.92099,16.765991l76.343994,74.234985c10.506989,10.197998 27.084991,9.821045 37.116974,-0.843994c10.03302,-10.664978 9.77002,-27.445984 -0.737976,-37.643982l-75.182983,-72.864014c26.360992,-42.846985 21.007996,-100.044983 -16.028015,-137.080994c-43.27298,-43.27301 -114.054993,-43.27301 -157.326996,0l0,0zm31.738983,31.739014c26.10202,-26.10202 67.746033,-26.10202 93.848022,0c26.10199,26.10199 26.10199,67.745972 0,93.847961c-26.10199,26.102051 -67.746002,26.102051 -93.848022,0c-26.10199,-26.10199 -26.10199,-67.745972 0,-93.847961z', stroke-width='9.756173')
+
         nav.navigation-dropdown
           ul
             li.navigation-dropdown-column
