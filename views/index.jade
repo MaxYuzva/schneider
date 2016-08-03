@@ -12,12 +12,39 @@ block content
                         a.btn Read more
             div.slider-slide
                 img.slider-slide-pic(src="img/slider2.jpg")
+                div.content-wrp._slider
+                    div.slider-slide-c
+
+                        h1.slider-slide-c-t Cigre 2016
+                        p.slider-slide-c-tx 21-26 August 2016: Paris, France
+                        p.slider-slide-c-tx Empowering smart utilities. Visit us at booth #253 and learn more about our innovative solutions that improve reliability, safety, security, efficiency and sustainability at every level of the grid.
+                        a.btn Learn more
             div.slider-slide
                 img.slider-slide-pic(src="img/slider3.jpg")
+                div.content-wrp._slider
+                    div.slider-slide-c
+                        h1.slider-slide-c-t Be the one who gets it.
+                        p.slider-slide-c-tx Don’t miss out on the latest videos, top stories, and FREE resources. It’s all in our bi-weekly news bulletin.
+                        a.btn Sign up now
             div.slider-slide
                 img.slider-slide-pic(src="img/slider4.jpg")
+                div.content-wrp._slider
+                    div.slider-slide-c
+                        h1.slider-slide-c-t IoT 2020 Business Report
+                        p.slider-slide-c-tx Here are the top 5 predictions for the future of IoT with input from 2,500 business decision-makers around the world.
+                        a.btn Find out what they have to say
+        svg.slider-arrow-pic._left._hidden(version='1.0', xmlns='http://www.w3.org/2000/svg', width='48.000000pt', height='74.000000pt', viewbox='0 0 48.000000 74.000000', preserveaspectratio='xMidYMid meet')
+            g(transform='translate(0.000000,74.000000) scale(0.100000,-0.100000)')
+                path(d='M187 535 l-159 -165 159 -165 c87 -91 163 -165 169 -165 5 0 23 14\
+                39 30 l29 30 -95 98 c-52 53 -110 114 -128 134 l-34 37 127 135 126 134 -26\
+                31 c-14 17 -31 31 -37 30 -7 0 -83 -74 -170 -164z')
+        svg.slider-arrow-pic._right(version='1.0', xmlns='http://www.w3.org/2000/svg', width='48.000000pt', height='74.000000pt', viewbox='0 0 48.000000 74.000000', preserveaspectratio='xMidYMid meet')
+            g(transform='translate(0.000000,74.000000) scale(0.100000,-0.100000)')
+                path(d='M187 535 l-159 -165 159 -165 c87 -91 163 -165 169 -165 5 0 23 14\
+                39 30 l29 30 -95 98 c-52 53 -110 114 -128 134 l-34 37 127 135 126 134 -26\
+                31 c-14 17 -31 31 -37 30 -7 0 -83 -74 -170 -164z')
         div.slider-paging
-            div.slider-paging-item
+            div.slider-paging-item._active
             div.slider-paging-item
             div.slider-paging-item
             div.slider-paging-item
@@ -45,7 +72,7 @@ block content
             div.sections-separator
             section.solutions
                 header.section-header
-                    a.section-viewMoreLink See all Solutions
+                    a.section-viewMoreLink.linkArrow See all Solutions
                     h3.section-t Solutions
                 section.gallery
                     div.gallery-row
@@ -71,7 +98,7 @@ block content
             div.sections-separator
             section.popular
                 header.section-header
-                    a.section-viewMoreLink See all products
+                    a.section-viewMoreLink.linkArrow See all products
                     h3.section-t Most viewed products
                 section.productsSlider
                     div.productsSlider-wrp
@@ -152,42 +179,52 @@ block content
                                         img.prodictsSlider-i-pic(src="img/product-slider15.jpg")
                                         p.prodictsSlider-i-tx Human Machine Interface
 
+                    svg.productsSlider-pic._left._hidden(version='1.0', xmlns='http://www.w3.org/2000/svg', width='48.000000pt', height='74.000000pt', viewbox='0 0 48.000000 74.000000', preserveaspectratio='xMidYMid meet')
+                        g(transform='translate(0.000000,74.000000) scale(0.100000,-0.100000)')
+                            path(d='M187 535 l-159 -165 159 -165 c87 -91 163 -165 169 -165 5 0 23 14\
+                                    39 30 l29 30 -95 98 c-52 53 -110 114 -128 134 l-34 37 127 135 126 134 -26\
+                                    31 c-14 17 -31 31 -37 30 -7 0 -83 -74 -170 -164z')
+                    svg.productsSlider-pic._right(version='1.0', xmlns='http://www.w3.org/2000/svg', width='48.000000pt', height='74.000000pt', viewbox='0 0 48.000000 74.000000', preserveaspectratio='xMidYMid meet')
+                        g(transform='translate(0.000000,74.000000) scale(0.100000,-0.100000)')
+                            path(d='M187 535 l-159 -165 159 -165 c87 -91 163 -165 169 -165 5 0 23 14\
+                                    39 30 l29 30 -95 98 c-52 53 -110 114 -128 134 l-34 37 127 135 126 134 -26\
+                                    31 c-14 17 -31 31 -37 30 -7 0 -83 -74 -170 -164z')
         aside.sidebar
             div.sidebar-card
                 img.sidebar-card-img(src="img/aside1.jpg")
                 h3.sidebar-card-t Our Company
                 p.sidebar-card-tx We create connected technologies that reshape industries, transform cities and enrich lives.
-                a.sidebar-more Learn more
+                a.sidebar-more.linkArrow Learn more
             div.sidebar-card
                 h3.sidebar-card-t Sustainability
                 p.sidebar-card-tx Sustainability is at the heart of our strategy.
-                a.sidebar-more Find out more
+                a.sidebar-more.linkArrow Find out more
             div.sidebar-card
                 h3.sidebar-card-t Strategy & Sustainability Highlights
                 p.sidebar-card-tx Discover how we're closing the energy gap and driving efficiency everywhere.
-                a.sidebar-more Read the report
+                a.sidebar-more.linkArrow Read the report
 
             div.sidebar-card
                 h3.sidebar-card-t Innovation Summit Highlights
                 p.sidebar-card-tx Schneider hosted top industry leaders in Paris to discuss the latest technologies, trends and innovations transforming the world of energy and automation.
-                a.sidebar-more Watch the video highlights
+                a.sidebar-more.linkArrow Watch the video highlights
             div.sidebar-card
                 h3.sidebar-card-t Quick links
                 ul.sidebar-card-l
                     li
-                        a.sidebar-more.sidebar-quickLn Our worldwide presence
+                        a.sidebar-more.sidebar-quickLn.linkArrow Our worldwide presence
                     li
-                        a.sidebar-more.sidebar-quickLn Share Price
+                        a.sidebar-more.sidebar-quickLn.linkArrow Share Price
                     li
-                        a.sidebar-more.sidebar-quickLn Events
+                        a.sidebar-more.sidebar-quickLn.linkArrow Events
                     li
-                        a.sidebar-more.sidebar-quickLn Blog
+                        a.sidebar-more.sidebar-quickLn.linkArrow Blog
                     li
-                        a.sidebar-more.sidebar-quickLn Customer Success Stories
+                        a.sidebar-more.sidebar-quickLn.linkArrow Customer Success Stories
                     li
-                        a.sidebar-more.sidebar-quickLn Foundation
+                        a.sidebar-more.sidebar-quickLn.linkArrow Foundation
                     li
-                        a.sidebar-more.sidebar-quickLn Innovation
+                        a.sidebar-more.sidebar-quickLn.linkArrow Innovation
 
     footer.footer
         div.content-wrp

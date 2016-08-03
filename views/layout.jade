@@ -4,252 +4,656 @@ html
     title="Global Specialist in Energy Management and Automation | Schneider Electric"
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    section.userbar
-      div.content-wrp._userbar
-        div.userbar-actionitem
-          a.userbar-actionitem-ln
-            svg.userbar-actionitem-pic(version='1.0', xmlns='http://www.w3.org/2000/svg', width='46.000000pt', height='40.000000pt', viewbox='0 0 46.000000 40.000000', preserveaspectratio='xMidYMid meet')
-              g(transform='translate(0.000000,40.000000) scale(0.100000,-0.100000)',  stroke='none')
-                path(d='M155 346 c-123 -55 -126 -234 -5 -296 51 -26 95 -25 150 3 50 25 90\
-                    88 90 142 -1 45 -34 109 -70 135 -40 29 -121 37 -165 16z m96 -15 c-9 -6 -10\
-                    -11 -2 -15 21 -13 11 -34 -26 -53 -21 -11 -38 -26 -38 -34 0 -8 -10 -25 -23\
-                    -39 -27 -30 -25 -50 8 -67 14 -7 27 -23 30 -35 7 -30 50 -32 65 -3 5 11 14 27\
-                    20 35 5 8 10 17 11 20 4 23 19 40 30 36 8 -3 14 1 14 9 0 8 4 15 9 15 5 0 12\
-                    8 14 18 3 9 5 2 6 -16 3 -93 -82 -165 -174 -148 -38 7 -98 52 -89 67 7 12 -5\
-                    51 -14 45 -6 -3 -8 45 -3 80 1 12 46 25 90 28 13 0 26 7 29 15 3 10 0 12 -12\
-                    8 -12 -5 -16 -3 -14 5 3 7 14 14 26 16 12 2 22 8 22 13 0 5 8 9 18 9 13 0 14\
-                    -2 3 -9z')
-            span.userbar-actionitem-ln-tx Change country
-        div.userbar-actionitem
-          a.userbar-actionitem-ln
-            svg.userbar-actionitem-pic(version='1.0', xmlns='http://www.w3.org/2000/svg', width='46.000000pt', height='40.000000pt', viewbox='0 0 46.000000 40.000000', preserveaspectratio='xMidYMid meet')
-              g(transform='translate(0.000000,40.000000) scale(0.100000,-0.100000)', stroke='none')
-                path(d='M188 345 c-33 -18 -52 -72 -39 -107 5 -14 22 -35 37 -47 l27 -21 -34\
-                0 c-44 0 -77 -23 -95 -66 -27 -65 -31 -64 146 -64 156 0 160 1 160 21 0 59\
-                -49 109 -107 109 l-25 0 31 29 c24 23 31 37 31 68 -1 75 -65 114 -132 78z')
-            span.userbar-actionitem-ln-tx Login/Join Partner
-    nav.navigation
-      div.content-wrp._navigation
-        .navigation-leftside
-          figure.logo.navigation-logo
-            img(src="img/header-logo.png")
-          section.navigation-items
-            div.navigation-item
-              a.navigation-item-ln products
-            div.navigation-item
-              a.navigation-item-ln solutions
-            div.navigation-item
-              a.navigation-item-ln services
-            div.navigation-item
-              a.navigation-item-ln support
-            div.navigation-item
-              a.navigation-item-ln about us
-        .navigation-rightside
-          section.search.navigation-search
-            form
-              input.navigation-search-inp(placeholder="Search")
-              button.navigation-search-btn(type="submit")
-                svg.navigation-search-btn-pic(width='300', height='300', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink')
-                  g
-                    path(d='m37.938995,39.085999c-43.272995,43.272003 -43.378998,114.158997 -0.105988,157.432007c36.662994,36.663025 93.201996,42.25 135.92099,16.765991l76.343994,74.234985c10.506989,10.197998 27.084991,9.821045 37.116974,-0.843994c10.03302,-10.664978 9.77002,-27.445984 -0.737976,-37.643982l-75.182983,-72.864014c26.360992,-42.846985 21.007996,-100.044983 -16.028015,-137.080994c-43.27298,-43.27301 -114.054993,-43.27301 -157.326996,0l0,0zm31.738983,31.739014c26.10202,-26.10202 67.746033,-26.10202 93.848022,0c26.10199,26.10199 26.10199,67.745972 0,93.847961c-26.10199,26.102051 -67.746002,26.102051 -93.848022,0c-26.10199,-26.10199 -26.10199,-67.745972 0,-93.847961z', stroke-width='9.756173')
+    header.header
+      section.userbar
+        div.content-wrp._userbar
+          div.userbar-actionitem
+            a.userbar-actionitem-ln
+              svg.userbar-actionitem-pic(version='1.0', xmlns='http://www.w3.org/2000/svg', width='46.000000pt', height='40.000000pt', viewbox='0 0 46.000000 40.000000', preserveaspectratio='xMidYMid meet')
+                g(transform='translate(0.000000,40.000000) scale(0.100000,-0.100000)',  stroke='none')
+                  path(d='M155 346 c-123 -55 -126 -234 -5 -296 51 -26 95 -25 150 3 50 25 90\
+                      88 90 142 -1 45 -34 109 -70 135 -40 29 -121 37 -165 16z m96 -15 c-9 -6 -10\
+                      -11 -2 -15 21 -13 11 -34 -26 -53 -21 -11 -38 -26 -38 -34 0 -8 -10 -25 -23\
+                      -39 -27 -30 -25 -50 8 -67 14 -7 27 -23 30 -35 7 -30 50 -32 65 -3 5 11 14 27\
+                      20 35 5 8 10 17 11 20 4 23 19 40 30 36 8 -3 14 1 14 9 0 8 4 15 9 15 5 0 12\
+                      8 14 18 3 9 5 2 6 -16 3 -93 -82 -165 -174 -148 -38 7 -98 52 -89 67 7 12 -5\
+                      51 -14 45 -6 -3 -8 45 -3 80 1 12 46 25 90 28 13 0 26 7 29 15 3 10 0 12 -12\
+                      8 -12 -5 -16 -3 -14 5 3 7 14 14 26 16 12 2 22 8 22 13 0 5 8 9 18 9 13 0 14\
+                      -2 3 -9z')
+              span.userbar-actionitem-ln-tx Change country
+          div.userbar-actionitem
+            a.userbar-actionitem-ln
+              svg.userbar-actionitem-pic(version='1.0', xmlns='http://www.w3.org/2000/svg', width='46.000000pt', height='40.000000pt', viewbox='0 0 46.000000 40.000000', preserveaspectratio='xMidYMid meet')
+                g(transform='translate(0.000000,40.000000) scale(0.100000,-0.100000)', stroke='none')
+                  path(d='M188 345 c-33 -18 -52 -72 -39 -107 5 -14 22 -35 37 -47 l27 -21 -34\
+                  0 c-44 0 -77 -23 -95 -66 -27 -65 -31 -64 146 -64 156 0 160 1 160 21 0 59\
+                  -49 109 -107 109 l-25 0 31 29 c24 23 31 37 31 68 -1 75 -65 114 -132 78z')
+              span.userbar-actionitem-ln-tx Login/Join Partner
+      nav.navigation
+        div.content-wrp._navigation
+          .navigation-leftside
+            figure.logo.navigation-logo
+              img(src="img/header-logo.png")
+            section.navigation-items
+              div.navigation-item
+                a.navigation-item-ln products
+                nav.navigation-dropdown
+                  div.navigation-dropdown-wrp
+                    a.navigation-dropdown-all See all products
+                    ul.navigation-dropdown-l
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Access to Energy
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Collective Solutions
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Home systems
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Residential & Small Business
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Audio-Visual Solutions
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Electric Car Charging
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Emergency Lighting
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Home Control Solutions
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Home Safety
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Light Switches
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Network Connectivity
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Protection & Electricity Control
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Solar
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Uninterruptable Power Supply (UPS)
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Access to Energy
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Solar & Energy Storage
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Commercial & Industrial
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Power Plants
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Residential
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Low Voltage Products & Systems
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Circuit Breakers & Switches
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Contactors & Protection Relays
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Din Rail Modular Devices
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Electric Car Charging
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Electrical Distribution Software
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Emergency Lighting
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Fuse & Safety Switches
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Installation Materials & Systems
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Motor Starters
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Power Monitoring & Control
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Power Quality
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Pushbuttons, Switching & Joysticks
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Surge Protection & Power Conditioning
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Switchboards & Enclosures
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Switches, Sockets & Boxes
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Low Voltage Products & Systems
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Building Automation & Control
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Building Management
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Power Management Systems
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Power Monitoring & Control
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Security
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Small Building Control
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Medium Voltage Distribution & Grid Automation
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Arc Fault Protection
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Feeder Automation
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Grid Automation & SCADA Software
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Medium Voltage Transformers
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Medium Voltage/Low Voltage Prefabricated Substations
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Outdoor Equipment
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Power & Energy Monitoring
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Primary Switchgear
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Protection Relays
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Remote Terminal Units (RTUs)
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Secondary Switchgear
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Substation Automation
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Switchgear Components
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Critical Power, Cooling & Racks
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Cooling
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Critical Power & Cooling Services
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln IT Power Distribution
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Prefabricated Data Center Modules
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Racks & Accessories
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Security & Environmental Monitoring
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Surge Protection & Power Conditioning
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Uninterruptible Power Supply (UPS)
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Industrial Automation & Control
+                          ul.navigation-dropdown-list
 
-        nav.navigation-dropdown
-          ul
-            li.navigation-dropdown-column
-              section.navigation-dropdown-section
-                h6
-                  a.navigation-dropdown-section-t Access to Energy
-                  ul.navigation-dropdown-list
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Collective Solutions
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Home systems
-              section.navigation-dropdown-section
-                h6
-                  a.navigation-dropdown-section-t Residential & Small Business
-                  ul.navigation-dropdown-list
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Audio-Visual Solutions
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Electric Car Charging
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Emergency Lighting
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Home Control Solutions
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Home Safety
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Light Switches
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Network Connectivity
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Protection & Electricity Control
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Solar
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Uninterruptable Power Supply (UPS)
-              section.navigation-dropdown-section
-                h6
-                  a.navigation-dropdown-section-t Access to Energy
-                  ul.navigation-dropdown-list
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Solar & Energy Storage
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Commercial & Industrial
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Power Plants
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Residential
-            li.navigation-dropdown-column
-              section.navigation-dropdown-section
-                h6
-                  a.navigation-dropdown-section-t Low Voltage Products & Systems
-                  ul.navigation-dropdown-list
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Circuit Breakers & Switches
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Contactors & Protection Relays
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Din Rail Modular Devices
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Electric Car Charging
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Electrical Distribution Software
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Emergency Lighting
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Fuse & Safety Switches
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Installation Materials & Systems
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Motor Starters
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Power Monitoring & Control
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Power Quality
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Pushbuttons, Switching & Joysticks
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Surge Protection & Power Conditioning
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Switchboards & Enclosures
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Switches, Sockets & Boxes
-              section.navigation-dropdown-section
-                h6
-                  a.navigation-dropdown-section-t Low Voltage Products & Systems
-                  ul.navigation-dropdown-list
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Building Automation & Control
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Building Management
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Power Management Systems
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Power Monitoring & Control
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Security
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Small Building Control
-            li.navigation-dropdown-column
-              section.navigation-dropdown-section
-                h6
-                  a.navigation-dropdown-section-t Medium Voltage Distribution & Grid Automation
-                  ul.navigation-dropdown-list
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Arc Fault Protection
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Feeder Automation
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Grid Automation & SCADA Software
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Medium Voltage Transformers
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Medium Voltage/Low Voltage Prefabricated Substations
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Outdoor Equipment
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Power & Energy Monitoring
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Primary Switchgear
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Protection Relays
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Remote Terminal Units (RTUs)
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Secondary Switchgear
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Substation Automation
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Switchgear Components
-              section.navigation-dropdown-section
-                h6
-                  a.navigation-dropdown-section-t Critical Power, Cooling & Racks
-                  ul.navigation-dropdown-list
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Cooling
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Critical Power & Cooling Services
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln IT Power Distribution
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Prefabricated Data Center Modules
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Racks & Accessories
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Security & Environmental Monitoring
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Surge Protection & Power Conditioning
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Uninterruptible Power Supply (UPS)
-            li.navigation-dropdown-column
-              section.navigation-dropdown-section
-                h6
-                  a.navigation-dropdown-section-t Industrial Automation & Control
-                  ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Boxes, Cabling & Interface
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Contactors & Protection Relays
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Enclosures & Accessories
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln HMI (Terminals & Industrial PCs)
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Industrial Communication
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Interface, Measurement & Control Relays
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Measurement & Instrumentation
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Motion Control & Robotics
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Motor Starters & Protection Components
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln PLC, PAC & Dedicated Controllers
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Power Supplies, Power Protection & Transformers
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Process Control & Safety
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Pushbuttons, Switches, Pilot Lights & Joysticks
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Sensors & RFID System
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Signaling Units
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Software
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Telemetry & Remote SCADA Systems
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Variable Speed Drives & Soft Starters
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Software
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Software by Industry
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Software by Name
+              div.navigation-item
+                a.navigation-item-ln solutions
+                nav.navigation-dropdown
+                  .navigation-dropdown-wrp
+                    a.navigation-dropdown-all See all solutions
+                    ul.navigation-dropdown-l
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t For Partners
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Consultants, Designers & Engineers
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Contractors
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Distributors
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Electricians
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Global Strategic Alliances
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Original Equipment Manufacturers
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Panel Builders
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Systems Integrators
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t For Your Home
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Your Project
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Solar & Energy Storage
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t For Your Business
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Circuit Breakers & Switches
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Access to Energy
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Banking & Finance
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Cloud & Service Providers
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Data Centers
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Electric Utilities
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Food & Beverage
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Healthcare
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Hotels
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Life Sciences
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Machine Automation
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Marine
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Metals
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Minerals & Cement
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Mining
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Oil & Gas
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Smart Cities
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Water & Wastewater
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Weather
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Software
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Weather Observation Hardware
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t For Your Systems
+                          ul.navigation-dropdown-list
 
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Boxes, Cabling & Interface
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Contactors & Protection Relays
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Enclosures & Accessories
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln HMI (Terminals & Industrial PCs)
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Industrial Communication
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Interface, Measurement & Control Relays
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Measurement & Instrumentation
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Motion Control & Robotics
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Motor Starters & Protection Components
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln PLC, PAC & Dedicated Controllers
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Power Supplies, Power Protection & Transformers
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Process Control & Safety
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Pushbuttons, Switches, Pilot Lights & Joysticks
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Sensors & RFID System
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Signaling Units
-              section.navigation-dropdown-section
-                h6
-                  a.navigation-dropdown-section-t Software
-                  ul.navigation-dropdown-list
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Telemetry & Remote SCADA Systems
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Variable Speed Drives & Soft Starters
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Software
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Software by Industry
-                    li.navigation-dropdown-list-i
-                      a.navigation-dropdown-list-i-ln Software by Name
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Arc Fault Protection
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Buildings Systems
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Data Center & Network Systems
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Integrated System Architectures
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Machine Control
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Power & Grid Systems
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Process Systems
+
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Software
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Software by Industry
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Software by Name
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          img.sidebar-card-img(src="img/dropdown1.jpg")
+                          h3.sidebar-card-t._dropdown Top 5 IoT predictions
+                          p.sidebar-card-tx Here’s what more than 2,500 business decision-makers around the world say.
+                          a.sidebar-more._dropdown Download the report
+                  footer.navigation-dropdown-footer
+                    a.navigation-dropdown-footer-ln Life Is On
+                    a.navigation-dropdown-footer-ln Climate Change
+                    a.navigation-dropdown-footer-ln Innovation
+                    a.navigation-dropdown-footer-ln Internet of Things
+                    a.navigation-dropdown-footer-ln Insights
+              div.navigation-item
+                a.navigation-item-ln services
+                nav.navigation-dropdown
+                  .navigation-dropdown-wrp
+                    a.navigation-dropdown-all See All Services
+                    ul.navigation-dropdown-l
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Partner Managed Services
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Manage Maintenance: Facility Hero
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Facility Managed Services
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Weather
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Weather Observation Hardware
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Software
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Field Services
+                          ul.navigation-dropdown-list
+
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Building Life Cycle Services
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Critical Power & Cooling Services
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Electrical Distribution Services
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Industrial Automation Services
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Installation Services
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Operational Services
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Optimization Services
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Planning Services
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Renewal Services
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Information Services
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Energy & Sustainability Services
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Energy Consulting
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Infrastructure & Efficiency Upgrades
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Measurement, Monitoring & Reporting
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Metering, Power Reliability & Microgrids
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Strategic Energy Sourcing Services
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Sustainability Services
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Training
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Energy University
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Technical Training
+
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          img.sidebar-card-img(src="img/dropdown2.jpg")
+                          h3.sidebar-card-t._dropdown Facility managers have superpowers...
+                          p.sidebar-card-tx ...with the Facility Hero app in hand! Discover how you can optimize your maintenance efforts today.
+                          a.sidebar-more._dropdown Learn more
+                  footer.navigation-dropdown-footer
+                    a.navigation-dropdown-footer-ln Life Is On
+                    a.navigation-dropdown-footer-ln Climate Change
+                    a.navigation-dropdown-footer-ln Innovation
+                    a.navigation-dropdown-footer-ln Internet of Things
+                    a.navigation-dropdown-footer-ln Insights
+              div.navigation-item
+                a.navigation-item-ln support
+                nav.navigation-dropdown
+                  .navigation-dropdown-wrp
+                    a.navigation-dropdown-all See All Support
+                    ul.navigation-dropdown-l
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Technical Support
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Documents & Software
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln CAD Files
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln BIM
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln FAQ
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Technical Publication
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln White Paper Library
+
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Training
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Energy University
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Technical Training
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Sales Support
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Pre-sales Support
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Product Substitution Tool
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Find Your Distributor or Partner
+
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Tailored Self Services
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln mySchneider app
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Original Equipment Manufacturers
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln MySE Login
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Additional Links
+                          ul.navigation-dropdown-list
+
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Operations Around the World
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Customers Experience Centers
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Customer Success Stories
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Cybersecurity Support
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Counterfeiting
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Green Premium Eco Label
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Manage Your Preferences
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Idea Submission
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          img.sidebar-card-img(src="img/dropdown3.jpg")
+                          h3.sidebar-card-t._dropdown mySchneider app
+                          p.sidebar-card-tx Access tailored services, 24/7 self-service and expert help. Anywhere, anytime, any project.
+                          a.sidebar-more._dropdown Discover now
+                  footer.navigation-dropdown-footer
+                    a.navigation-dropdown-footer-ln Life Is On
+                    a.navigation-dropdown-footer-ln Climate Change
+                    a.navigation-dropdown-footer-ln Innovation
+                    a.navigation-dropdown-footer-ln Internet of Things
+                    a.navigation-dropdown-footer-ln Insights
+              div.navigation-item
+                a.navigation-item-ln about us
+                nav.navigation-dropdown
+                  .navigation-dropdown-wrp
+                    a.navigation-dropdown-all See About Us
+                    ul.navigation-dropdown-l
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Company Profile
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln What we do
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Governance
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Our Strategy
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Innovation
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln History
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Events
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Awards & Rankings
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Diversity
+
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Sustainability
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Sustainability Performance
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Access to Energy
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Environment
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Fuel Poverty
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Responsibility & Ethics
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Foundation
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Investor Relations
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln New Investor
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Individual Shareholder
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Investor Events
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Regulatory Information
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Financial Results
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Share Information
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Financial Calendar
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Shareholder's Meeting
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Press
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Press Releases
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Press Kits
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln News
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Annual Reports
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Interim Reports
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Strategy and Sustainability Reports
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          h6
+                            a.navigation-dropdown-section-t Careers
+                          ul.navigation-dropdown-list
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Your Career
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Your Talent
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Schneider Electric at a Glance
+                            li.navigation-dropdown-list-i
+                              a.navigation-dropdown-list-i-ln Frequently Asked Questions
+                      li.navigation-dropdown-column
+                        section.navigation-dropdown-section
+                          img.sidebar-card-img(src="img/dropdown4.jpg")
+                          h3.sidebar-card-t._dropdown Be the one who gets it
+                          p.sidebar-card-tx Don’t miss the latest events, videos, or articles. It’s all in our news bulletin.
+                          a.sidebar-more._dropdown Sign up now
+                  footer.navigation-dropdown-footer
+                    a.navigation-dropdown-footer-ln Life Is On
+                    a.navigation-dropdown-footer-ln Climate Change
+                    a.navigation-dropdown-footer-ln Innovation
+                    a.navigation-dropdown-footer-ln Internet of Things
+                    a.navigation-dropdown-footer-ln Insights
+          .navigation-rightside
+            section.search.navigation-search
+              form
+                input.navigation-search-inp(placeholder="Search")
+                button.navigation-search-btn(type="submit")
+                  svg.navigation-search-btn-pic(width='300', height='300', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink')
+                    g
+                      path(d='m37.938995,39.085999c-43.272995,43.272003 -43.378998,114.158997 -0.105988,157.432007c36.662994,36.663025 93.201996,42.25 135.92099,16.765991l76.343994,74.234985c10.506989,10.197998 27.084991,9.821045 37.116974,-0.843994c10.03302,-10.664978 9.77002,-27.445984 -0.737976,-37.643982l-75.182983,-72.864014c26.360992,-42.846985 21.007996,-100.044983 -16.028015,-137.080994c-43.27298,-43.27301 -114.054993,-43.27301 -157.326996,0l0,0zm31.738983,31.739014c26.10202,-26.10202 67.746033,-26.10202 93.848022,0c26.10199,26.10199 26.10199,67.745972 0,93.847961c-26.10199,26.102051 -67.746002,26.102051 -93.848022,0c-26.10199,-26.10199 -26.10199,-67.745972 0,-93.847961z', stroke-width='9.756173')
+
     block content
+    script(src="javascripts/main.js")
