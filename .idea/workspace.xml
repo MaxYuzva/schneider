@@ -83,7 +83,7 @@
             <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
-                  <caret line="0" column="63378" selection-start-line="0" selection-start-column="63378" selection-end-line="0" selection-end-column="63378" />
+                  <caret line="0" column="63329" selection-start-line="0" selection-start-column="63329" selection-end-line="0" selection-end-column="63329" />
                   <folding>
                     <element signature="e#41#25280#2" expanded="true" />
                     <element signature="e#25356#56163#2" expanded="true" />
@@ -335,12 +335,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1470124047639</updated>
-      <workItem from="1470124048969" duration="42291000" />
+      <workItem from="1470124048969" duration="42416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42291000" />
+    <option name="totallyTimeSpent" value="42416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -490,7 +490,7 @@
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="63378" selection-start-line="0" selection-start-column="63378" selection-end-line="0" selection-end-column="63378" />
+          <caret line="0" column="63329" selection-start-line="0" selection-start-column="63329" selection-end-line="0" selection-end-column="63329" />
           <folding>
             <element signature="e#41#25280#2" expanded="true" />
             <element signature="e#25356#56163#2" expanded="true" />
