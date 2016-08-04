@@ -40,7 +40,9 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="399">
                   <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-                  <folding />
+                  <folding>
+                    <marker date="1470195325000" expanded="true" signature="79:114" ph="{&quot;start&quot;: &quot;node ./bin/www&quot;...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -55,28 +57,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/index.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4116">
-                  <caret line="196" column="51" selection-start-line="193" selection-start-column="16" selection-end-line="196" selection-end-column="51" />
-                  <folding>
-                    <element signature="n#footer#0;n#block#0;n#!!top" expanded="false" />
-                  </folding>
+                <state relative-caret-position="3457">
+                  <caret line="232" column="94" selection-start-line="232" selection-start-column="94" selection-end-line="232" selection-end-column="94" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="layout.jade" pinned="false" current-in-tab="true">
+          <file leaf-file-name="layout.jade" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/layout.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="63">
-                  <caret line="3" column="86" selection-start-line="3" selection-start-column="86" selection-end-line="3" selection-end-column="86" />
+                <state relative-caret-position="2667">
+                  <caret line="355" column="30" selection-start-line="355" selection-start-column="26" selection-end-line="355" selection-end-column="30" />
                   <folding>
                     <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#ul#0;n#div#0;n#nav#0;n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#1;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#1;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#li#2;n#ul#0;n#div#0;n#nav#0;n#div#1;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
@@ -87,21 +85,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.styl" pinned="false" current-in-tab="true">
+          <file leaf-file-name="style.styl" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/stylesheets/style.styl">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3528">
-                  <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+                <state relative-caret-position="-336">
+                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+                <state relative-caret-position="168">
+                  <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -123,12 +121,12 @@
       <list>
         <option value="$PROJECT_DIR$/views/components/header.jade" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/views/index.jade" />
-        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.styl" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
+        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
       </list>
     </option>
   </component>
@@ -184,6 +182,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="schneider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schneider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schneider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schneider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schneider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schneider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schneider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,12 +305,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1470124047639</updated>
-      <workItem from="1470124048969" duration="36127000" />
+      <workItem from="1470124048969" duration="39010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36127000" />
+    <option name="totallyTimeSpent" value="39010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -319,22 +363,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3528">
-          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -347,7 +375,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1470195325000" expanded="true" signature="79:114" ph="{&quot;start&quot;: &quot;node ./bin/www&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -359,27 +389,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4116">
-          <caret line="196" column="51" selection-start-line="193" selection-start-column="16" selection-end-line="196" selection-end-column="51" />
+        <state relative-caret-position="2667">
+          <caret line="355" column="30" selection-start-line="355" selection-start-column="26" selection-end-line="355" selection-end-column="30" />
           <folding>
-            <element signature="n#footer#0;n#block#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#nav#0;n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#nav#0;n#div#1;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="86" selection-start-line="3" selection-start-column="86" selection-end-line="3" selection-end-column="86" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#nav#0;n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#0;n#div#1;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#1;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#nav#0;n#div#1;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="3457">
+          <caret line="232" column="94" selection-start-line="232" selection-start-column="94" selection-end-line="232" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
