@@ -2,46 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="744ee7d2-6f23-4a53-aa17-013ee588d6bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/articles1.jpg" afterPath="$PROJECT_DIR$/public/img/articles1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/articles2.jpg" afterPath="$PROJECT_DIR$/public/img/articles2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/articles3.jpg" afterPath="$PROJECT_DIR$/public/img/articles3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/aside1.jpg" afterPath="$PROJECT_DIR$/public/img/aside1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/common-sprite@2x.png" afterPath="$PROJECT_DIR$/public/img/common-sprite@2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/dropdown1.jpg" afterPath="$PROJECT_DIR$/public/img/dropdown1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/dropdown2.jpg" afterPath="$PROJECT_DIR$/public/img/dropdown2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/dropdown3.jpg" afterPath="$PROJECT_DIR$/public/img/dropdown3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/dropdown4.jpg" afterPath="$PROJECT_DIR$/public/img/dropdown4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider1.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider10.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider11.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider12.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider13.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider13.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider14.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider14.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider15.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider15.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider2.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider3.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider4.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider5.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider6.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider7.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider8.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/product-slider9.jpg" afterPath="$PROJECT_DIR$/public/img/product-slider9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/slider1.jpg" afterPath="$PROJECT_DIR$/public/img/slider1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/slider2.jpg" afterPath="$PROJECT_DIR$/public/img/slider2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/slider3.jpg" afterPath="$PROJECT_DIR$/public/img/slider3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/slider4.jpg" afterPath="$PROJECT_DIR$/public/img/slider4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/social-sprite.png" afterPath="$PROJECT_DIR$/public/img/social-sprite.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/solutions1.jpg" afterPath="$PROJECT_DIR$/public/img/solutions1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/solutions2.jpg" afterPath="$PROJECT_DIR$/public/img/solutions2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/solutions3.jpg" afterPath="$PROJECT_DIR$/public/img/solutions3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/solutions4.jpg" afterPath="$PROJECT_DIR$/public/img/solutions4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/solutions5.jpg" afterPath="$PROJECT_DIR$/public/img/solutions5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/solutions6.jpg" afterPath="$PROJECT_DIR$/public/img/solutions6.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.min.js" afterPath="$PROJECT_DIR$/public/javascripts/main.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
     </list>
     <ignored path="schneider.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,12 +59,13 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="1546" column="7" selection-start-line="1546" selection-start-column="7" selection-end-line="1546" selection-end-column="7" />
+            <state relative-caret-position="34">
+              <caret line="1159" column="89" selection-start-line="1159" selection-start-column="89" selection-end-line="1159" selection-end-column="89" />
               <folding>
                 <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#62676#62681#0" expanded="true" />
+                <element signature="n#nav#0;n#div#1;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -349,16 +312,16 @@
       <workItem from="1470683528800" duration="1974000" />
       <workItem from="1470746516811" duration="1139000" />
       <workItem from="1470757042562" duration="657000" />
-      <workItem from="1470773062263" duration="4389000" />
+      <workItem from="1470773062263" duration="4643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52088000" />
+    <option name="totallyTimeSpent" value="52342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12544045" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -366,7 +329,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24096386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24096386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -428,6 +391,7 @@
             <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#62676#62681#0" expanded="true" />
+            <element signature="n#nav#0;n#div#1;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -483,6 +447,7 @@
             <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#62676#62681#0" expanded="true" />
+            <element signature="n#nav#0;n#div#1;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -537,6 +502,7 @@
             <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#62676#62681#0" expanded="true" />
+            <element signature="n#nav#0;n#div#1;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
@@ -662,12 +628,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="1546" column="7" selection-start-line="1546" selection-start-column="7" selection-end-line="1546" selection-end-column="7" />
+        <state relative-caret-position="34">
+          <caret line="1159" column="89" selection-start-line="1159" selection-start-column="89" selection-end-line="1159" selection-end-column="89" />
           <folding>
             <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#div#0;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#62676#62681#0" expanded="true" />
+            <element signature="n#nav#0;n#div#1;n#section#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
