@@ -1,7 +1,7 @@
 (function() {
     var state = {
             index: 0,
-            length: 4
+            length: 6
         },
         $leftArrow = document.querySelector('.slider-arrow-pic._left'),
         $rightArrow = document.querySelector('.slider-arrow-pic._right'),
@@ -68,7 +68,7 @@
 (function() {
     var state = {
             index: 0,
-            length: 11
+            length: 19
         },
         $leftArrow = document.querySelector('.productsSlider-pic._left'),
         $rightArrow = document.querySelector('.productsSlider-pic._right'),
