@@ -1,0 +1,6 @@
+ .png img.adapt-img, .gif img.adapt-img {
+                opacity: 0.01;
+ }
+  .adapt-img-wrapper.png:after, .adapt-img-wrapper.gif:after {
+                display: none;
+  }

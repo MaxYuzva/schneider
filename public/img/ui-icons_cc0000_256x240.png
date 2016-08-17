@@ -1,0 +1,127 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>error</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<BASE href="http://a70.g.akamai.net/7/70/36744/v001/schneider2.download.akamai.com/36774/failover/404/error.htm">
+<SCRIPT src="error_files/menutop.js" type=text/javascript></SCRIPT>
+
+<SCRIPT src="error_files/configuration-xiti.js" type=text/javascript></SCRIPT>
+
+<SCRIPT src="error_files/stat.js" type=text/javascript></SCRIPT>
+
+<SCRIPT src="error_files/offer_presentation_stat.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="error_files/popup.js" type=text/javascript></SCRIPT>
+
+<SCRIPT src="error_files/searchDocuments.js" type=text/javascript></SCRIPT>
+
+<SCRIPT src="error_files/utils.js" type=text/javascript></SCRIPT>
+
+<SCRIPT src="error_files/sifr-addons.js" type=text/javascript></SCRIPT>
+
+<SCRIPT src="error_files/sifr.js" type=text/javascript></SCRIPT>
+
+<SCRIPT src="error_files/sifr-replace.js" type=text/javascript></SCRIPT>
+<LINK href="error_files/sIFR-print.css" type=text/css rel=stylesheet><LINK 
+href="error_files/sIFR-screen.css" type=text/css rel=stylesheet><LINK 
+href="error_files/styles.css" type=text/css rel=stylesheet>
+<META content="MSHTML 6.00.6000.16890" name=GENERATOR>
+                  <script type="text/javascript">
+                    var w=window;
+                    if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document,AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(a,b){AKSB.q.push(["mark",a,b||(new Date).getTime()])};AKSB.measure=function(a,b,c){AKSB.q.push(["measure",a,b,c||(new Date).getTime()])};AKSB.done=function(a){AKSB.q.push(["done",a])};AKSB.mark("firstbyte",(new Date).getTime());AKSB.prof={custid:"36774",ustr:"UNKNOWN",originlat:0,clientrtt:42,ghostip:"104.81.60.159",
+                    ipv6:false,pct:10,clientip:"87.252.225.53",requestid:"1ec828a8",protocol:"",blver:7,akM:"",akN:"ae",akTT:"O",akTX:"1",akTI:"1ec828a8",ai:"280480",ra:""};(function(a){var b=d.createElement("script");b.async="async";b.src=a;a=d.getElementsByTagName("script");a=a[a.length-1];a.parentNode.insertBefore(b,
+                    a)})(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")};
+                  </script>
+                  </HEAD>
+<BODY style="MARGIN: 0px; BACKGROUND-COLOR: #ffffff">
+<TABLE id=MASTER cellSpacing=0 cellPadding=0 align=center>
+  <TBODY>
+  <TR>
+    <TD>
+      <DIV style="WIDTH: 1001px"><!--table-group-->
+      <DIV style="CLEAR: both; DISPLAY: inline; FLOAT: left"><!--table-->
+      <DIV style="DISPLAY: inline; FLOAT: left">
+      <DIV class=iw_component 
+      style="CLEAR: both; DISPLAY: inline; FLOAT: left; WIDTH: 200px">
+      <TABLE class=contentImage>
+        <TBODY>
+        <TR>
+          <TD style="TEXT-ALIGN: left" vAlign=top><IMG 
+            alt="This image can't be displayed" 
+          src="error_files/signature.gif"></TD></TR></TBODY></TABLE></DIV></DIV></DIV></DIV>
+      <DIV style="WIDTH: 1001px"><!--table-group-->
+      <DIV style="CLEAR: both; DISPLAY: inline; FLOAT: left"><!--table-->
+      <DIV style="DISPLAY: inline; FLOAT: left">
+      <DIV class=iw_component 
+      style="CLEAR: both; DISPLAY: inline; FLOAT: left; WIDTH: 1000px">
+      <DIV class=titleHeader style="BACKGROUND: #4fa600">
+      <H1 class=chapter_title> Error
+      </H1></DIV></DIV></DIV></DIV></DIV>
+      <DIV style="WIDTH: 1001px"><!--table-group-->
+      <DIV style="CLEAR: both; DISPLAY: inline; FLOAT: left"><!--table-->
+      <DIV style="DISPLAY: inline; FLOAT: left">
+      <DIV class=iw_component 
+      style="CLEAR: both; DISPLAY: inline; FLOAT: left; WIDTH: 200px">
+      <SCRIPT language=javascript 
+      type=text/javascript>// <!-- ERROR_PAGE --></SCRIPT>
+      </DIV></DIV><!--table-->
+      <DIV style="DISPLAY: inline; FLOAT: left">
+      <DIV class=iw_component 
+      style="CLEAR: both; DISPLAY: inline; FLOAT: left; WIDTH: 800px">
+      <DIV class=publicationViewer style="MARGIN-TOP: 10px">
+      <DIV class=publicationViewerHeader>
+      <DIV class="white pub_header">
+      <DIV class=topRightCorner></DIV>
+      <DIV class=topLeftCorner></DIV>
+      <DIV class=pub_top></DIV>
+      <P class=pub_footer>&nbsp;</P>
+      <DIV class=bottomRightCorner></DIV>
+      <DIV class=bottomLeftCorner></DIV></DIV></DIV><!-- CONTENT_BEGIN -->
+      <H3>404 ERROR</H3>
+      <DIV class="publication white">
+      <DIV class=richText>
+      <P>The Schneider-electric.com site has changed - this page does no longer 
+      exist.</P>
+      <P>You will find the information you are looking for at the following 
+      URL:<BR><A 
+      href="http://www.schneider-electric.com/">http://www.schneider-electric.com/</A></P>
+      <P>Your Schneider Electric web team<BR></P></DIV></DIV>
+      <H3>ERREUR 404</H3>
+      <DIV class="publication white">
+      <DIV class=richText>
+      <P>Le site Schneider-electric.com a changé - cette page n'existe plus.</P>
+      <P>Vous retrouverez vos informations habituelles à l'adresse 
+      suivante:<BR><A 
+      href="http://www.schneider-electric.com/">http://www.schneider-electric.com/</A></P>
+      <P>Votre équipe web Schneider 
+      Electric</P></DIV></DIV><!-- CONTENT_END --></DIV></DIV></DIV></DIV></DIV>
+      <SCRIPT type=text/javascript><!--
+  if (-1 == navigator.userAgent.indexOf('MSIE '))
+  {
+    var divs = document.getElementsByTagName('div');
+
+    for (var i=0; i < divs.length; i++) {
+      if ('iw_component' == divs[i].className) {
+
+        var hasPercentHeight = false;
+        var elts = divs[i].childNodes;
+
+        for (var j=0; !hasPercentHeight && (j<elts.length); j++) {
+          if (1 == elts[j].nodeType) {
+            var h = elts[j].getAttribute('height') || elts[j].style.height;
+            if (-1 != h.indexOf('%')) hasPercentHeight = true;
+          }
+        }
+
+        if (!hasPercentHeight) {
+          var oldStyleHeight = divs[i].style.height;
+          var expl = divs[i].offsetHeight;
+          divs[i].style.height = 'auto';
+          var auto = divs[i].offsetHeight;
+          if (expl > auto) divs[i].style.height = oldStyleHeight;
+        }
+      }
+    }
+  }
+  --></SCRIPT>
+    </TD></TR></TBODY></TABLE></BODY></HTML>
